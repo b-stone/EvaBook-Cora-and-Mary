@@ -1,5 +1,5 @@
 
-BOOK_FILE_NAME = captain_z
+BOOK_FILE_NAME = cora_mary
 TEMP_DIR = out
 
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
