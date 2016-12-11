@@ -15,7 +15,7 @@ EPUB_BUILDER = pandoc
 EPUB_BUILDER_FLAGS = \
 	--epub-cover-image
 
-MOBI_BUILDER = kindlegen
+MOBI_BUILDER = ~/Downloads/KindleGen_Mac_i386_v2_9/kindlegen
 
 combine:
 	mkdir -p $(TEMP_DIR)
